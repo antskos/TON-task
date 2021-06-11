@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringFinder", "MaxSubsting\SubstringFinder.csproj", "{11E032AD-B91A-41FF-B4F9-34D0D03D00BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9D455ADB-C5B5-45E9-88F8-27FBA09BC9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringFinder.Tests", "Tests\MaximalSubstringFinder.Tests\SubstringFinder.Tests.csproj", "{118E32E2-015E-44DD-9A9E-7CFE1091893E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E032AD-B91A-41FF-B4F9-34D0D03D00BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E032AD-B91A-41FF-B4F9-34D0D03D00BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E032AD-B91A-41FF-B4F9-34D0D03D00BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E032AD-B91A-41FF-B4F9-34D0D03D00BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118E32E2-015E-44DD-9A9E-7CFE1091893E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118E32E2-015E-44DD-9A9E-7CFE1091893E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118E32E2-015E-44DD-9A9E-7CFE1091893E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118E32E2-015E-44DD-9A9E-7CFE1091893E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{118E32E2-015E-44DD-9A9E-7CFE1091893E} = {9D455ADB-C5B5-45E9-88F8-27FBA09BC9DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {185E584A-505D-439B-9CFF-BF6728A94D2C}
+	EndGlobalSection
+EndGlobal
